@@ -50,6 +50,7 @@ for i in range(len(F0)):
     chord = chord + gain[i] * y
 
 import numpy as np
+#import other library to write other types of media files
 from scipy.io.wavfile import write
 
 data = chord
