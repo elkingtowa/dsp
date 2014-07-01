@@ -35,6 +35,9 @@ def ks(x, alpha, D) :
     y = yMatrix.flatten()
         
     return y
+    
+#graphing example   
+    
 """
 x = np.random.randn(100)
 y = ks(x,0.9,10)
